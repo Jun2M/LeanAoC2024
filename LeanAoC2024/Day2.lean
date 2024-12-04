@@ -1,4 +1,5 @@
-import Mathlib
+import Mathlib.Data.List.Sublists
+import Mathlib.Data.List.Sort
 
 def input : IO String := IO.FS.readFile "LeanAoC2024/inputs/Day2.txt"
 def parse := (·.splitOn "\n" |>.map (·.splitOn " " |>.map String.toInt!)) <$> input
