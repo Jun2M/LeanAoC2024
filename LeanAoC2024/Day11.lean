@@ -1,7 +1,7 @@
 import Mathlib.Data.Nat.Digits
 import Mathlib.Data.Finsupp.Multiset
 
-def input : IO String := IO.FS.readFile "LeanAoC2024/inputs/Day10.txt"
+def input : IO String := IO.FS.readFile "LeanAoC2024/inputs/Day11.txt"
 
 def blink (s : List Nat) : List Nat := Id.run $ do
 let mut s' := []
